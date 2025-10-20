@@ -1,0 +1,41 @@
+body {
+  margin: 2px;
+  color: rgb(45, 40, 35);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.reset {
+  display: flex;
+  justify-content: center;
+}
+.home-div {
+  text-align: center;
+}
+
+.guest-div {
+  text-align: center;
+}
+
+.entire {
+  border: 4px solid lightcyan;
+  background: linear-gradient(lightblue, lightpink);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.btn {
+  color: black;
+  background-color: bisque;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #cb9d06;
+  box-shadow: inset;
+}
