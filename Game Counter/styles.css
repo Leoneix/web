@@ -1,6 +1,7 @@
 body {
   margin: 2px;
   color: rgb(45, 40, 35);
+  background: linear-gradient(lightblue, lightpink);
 }
 
 .container {
