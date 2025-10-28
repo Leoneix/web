@@ -1,0 +1,59 @@
+body {
+  margin: 0px 0px;
+  background-color: rgb(234, 239, 239);
+  font-family: "Ubuntu", sans-serif;
+}
+
+#head {
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  border: 5px solid white;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: large;
+}
+
+button {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+#length {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#volume {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#mass {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
