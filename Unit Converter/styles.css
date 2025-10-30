@@ -1,33 +1,38 @@
 body {
   margin: 0px 0px;
-  background-color: rgb(234, 239, 239);
+  background-color: #284255;
   font-family: "Ubuntu", sans-serif;
 }
 
 #head {
-  background-color: blueviolet;
+  background-color: #189286;
   color: white;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 30%;
+  border-radius: 70px;
+  margin: 20px auto;
+  padding: 30px 30px;
+  height: 190px;
 }
 
 input {
-  border: 5px solid white;
-  border-radius: 10px;
+  border: 5px solid rgb(203, 175, 175);
+  border-radius: 40px;
   padding: 20px 30px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: large;
+  color: #284255;
 }
 
 button {
   background-color: white;
   padding: 10px 15px;
-  border-radius: 10px;
+  border-radius: 230px;
   border: none;
   margin-bottom: 20px;
   font-size: large;
@@ -35,25 +40,45 @@ button {
 }
 
 #length {
-  background-color: white;
-  margin: 10px;
+  background-color: rgb(231, 223, 223);
+  margin: 20px auto;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 40px;
   text-align: center;
+  width: 30%;
 }
 
 #volume {
-  background-color: white;
-  margin: 10px;
+  background-color: rgb(231, 223, 223);
+  margin: 20px auto;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 40px;
   text-align: center;
+  width: 30%;
 }
 
 #mass {
-  background-color: white;
-  margin: 10px;
+  background-color: rgb(231, 223, 223);
+  margin: 20px auto;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 40px;
   text-align: center;
+  width: 30%;
+}
+
+button:hover {
+  background-color: rgb(217, 221, 211);
+}
+.main {
+  margin: 60px;
+}
+.m {
+  background: #02c1c1;
+  border-radius: 150px;
+  font: 2000px;
+  margin: 20px 50px;
+  width: 300px;
+  font-size: 20px;
+  color: rgb(46, 42, 42);
+  font-weight: bold;
 }
